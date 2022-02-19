@@ -29,6 +29,7 @@ I think the best way to see it is with an example, so let's go:
                     font-family: sans-serif;
                     font-size: 25px;
                     text-align: center;
+                    padding: 15px;
                 }
 
                 .example::after {
