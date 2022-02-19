@@ -12,6 +12,7 @@
                     font-family: sans-serif;
                     font-size: 25px;
                     text-align: center;
+                    padding: 15px;
                 }
 
                 .example::after {
