@@ -6,7 +6,7 @@
 
 <br>
 
-The `prefers-color-scheme` is a CSS media feature, it is used to detect if the user has requested a light or dark color theme. This feature only can be used in `<style>` tag or in `js` but Github doesn't allow it in READMEs because you could easily launch a phishing attack.
+The `prefers-color-scheme` is a CSS media feature, it is used to detect if the user has requested a light or dark color theme. This feature only can be used in `<style>` tag or in `js` but Github doesn't allow it in READMEs to prevent attacks.
 
 For this reason I searched for a workaround and I found an article of [Chris Coyier in CSS Tricks](https://css-tricks.com/custom-styles-in-github-readmes/) that talk about add custom CSS in a SVG file. With this idea in mind I supposed that it would be possible to use the `prefers-color-scheme` media feature with this feature, and it worked! 🚀
 
@@ -64,7 +64,7 @@ This tecnic for use `prefers color scheme` can be use in proyect like [github-re
 
 ### Example
 
-<img src="https://stormy-sea-99716.herokuapp.com/graph?username=rodrigotomees&bg_color=0d111700&color=FFFFFF&line=1f6feb&point=FFFFFF&hide_border=true&pcs_light[bg_color]=0d111700&pcs_light[color]=24292F&pcs_light[line]=1f6feb&pcs_light[point]=24292F" alt="Example of advanced use">
+<img src="https://stormy-sea-99716.herokuapp.com/graph?username=rodrigotomees&bg_color=0d111700&color=FFFFFF&line=1f6feb&point=FFFFFF&hide_border=true&pcs_light[bg_color]=ffffff&pcs_light[color]=24292F&pcs_light[line]=1f6feb&pcs_light[point]=24292F" alt="Example of advanced use">
 
 ## Limitations
 
