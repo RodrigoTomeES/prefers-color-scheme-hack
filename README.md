@@ -16,8 +16,8 @@ I think the best way to see it is with an example, so let's go:
 
 ```xml
 <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-	<foreignObject width="100%" height="100%">
-		<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; height: 100%;">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; height: 100%;">
             <style>
                 .example {
                     width: 250px;
@@ -48,8 +48,8 @@ I think the best way to see it is with an example, so let's go:
                 }
             </style>
             <div class="example"></div>
-		</div>
-	</foreignObject>
+        </div>
+    </foreignObject>
 </svg>
 ```
 
