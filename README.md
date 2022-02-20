@@ -69,7 +69,7 @@ This tecnic for use `prefers color scheme` can be use in proyect like [github-re
 
 ## Limitations
 
-Using prefers color scheme doesn't work as expected in Github apps (android / ios) because they always return the light theme. I don't know if this is a bug of the app or it isn't compatible with this feature.
+Using `prefers color scheme` doesn't work as expected in Github apps (android / ios) because they always return the `light` theme. I don't know if this is a bug of the app or it isn't compatible with this feature.
 
 ## Resources Used
 
