@@ -8,7 +8,7 @@
 
 The `prefers-color-scheme` is a CSS media feature, it is used to detect if the user has requested a light or dark color theme. This feature only can be used in `<style>` tag or in `js` but Github doesn't allow it in READMEs to prevent attacks.
 
-For this reason I searched for a workaround and I found an article of [Chris Coyier in CSS Tricks](https://css-tricks.com/custom-styles-in-github-readmes/) that talk about add custom CSS in a SVG file. With this idea in mind I supposed that it would be possible to use the `prefers-color-scheme` media feature with this feature, and it worked! 🚀
+For this reason I searched for a workaround and I found an article of [Chris Coyier in CSS Tricks](https://css-tricks.com/custom-styles-in-github-readmes/) that talk about add custom CSS in a SVG file. With this idea in mind I supposed that it would be possible to use the `prefers-color-scheme` media feature with this trick, and it worked! 🚀
 
 ## Example
 
@@ -69,7 +69,7 @@ This tecnic for use `prefers color scheme` can be use in proyect like [github-re
 
 ## Limitations
 
-Using prefers color scheme doesn't work in Github apps (android / ios) because always return the light theme. I don't know if this is a bug of the app or it isn't compatible with this feature.
+Using prefers color scheme doesn't work as expected in Github apps (android / ios) because they always return the light theme. I don't know if this is a bug of the app or it isn't compatible with this feature.
 
 ## Resources Used
 
